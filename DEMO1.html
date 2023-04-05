@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My First WebPage</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color : grey;
+		}
+		header {
+			background-color: rgb(66, 183, 241);
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		nav {
+			background-color: #d5b0ed;
+			padding: 10px;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		nav li {
+			float: left;
+		}
+		nav li a {
+			display: block;
+			color: #333;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		nav li a:hover {
+			background-color: #f2f2f2;
+		}
+		article {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: flex-start;
+			margin: 10px;
+		}
+		section {
+			background-color: grey;
+			padding: 20px;
+			flex-basis: 70%;
+			margin-right: 10px;
+		}
+		aside {
+            float: right;
+            font-style: italic;
+            background-color: lightgray;
+			padding: 20px;
+			flex-basis: 20%;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		.images {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 50px;
+            padding: 30px;
+        }
+  
+        .photo {
+            max-width: 31.333%;
+            padding: 0 10px;
+            height: 240px;
+        }
+  
+        .photo img {
+            width: 100%;
+            height: 100%;
+        }
+	</style> 
+</head>
+<body>
+	<header>
+		<h1>My First Page</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<article>
+		<section>
+			<h2>I'm Inspired of:</h2>
+			<div class="images">
+			<div class="photo">
+				<img src="cc.jpeg.jpg" alt="CC"/>
+				<h1>Charlie Chaplin </h1>
+			</div>
+	  
+			<div class="photo">
+				<img src="bl.jpeg.jpg" alt="BL" />
+				<h1>Bruce Lee </h1>
+			</div>
+			  
+			<div class="photo">
+				<img src="mj.jpeg.jpg" alt="MJ" />
+				<h1>Micheal Jackson </h1>
+			</div>
+			</div>
+		</section>
+		<aside>
+		<h2>Recent Posts</h2>
+        <ul>
+			<li>Charlie is An Actor</li>
+			<li>Lee is an Icon for Martial Arts</li>
+			<li>Micheal is a multi talented artist</li>
+		</ul>
+		</aside>
+	</article>
+	<article>
+		<section>
+			<h2>About Me</h2>
+			<p>Hi, my name is Chisti and I am a web developer and enjoy working with HTML, CSS, and JavaScript.</p>
+			<p>This page is useful for multireasons as it shows some influencers and some news about them and you can find some tips which can be useful for your growth</p>
+		</section>
+		<aside>
+			<h2>Tips</h2>
+			<ul>
+				<li><a href="#">The Benefits of Learning HTML and CSS</a></li>
+				<li><a href="#">Tips for Creating Responsive Websites</a></li>
+				<li><a href="#">Reasons Why Every Business Needs a Website</a></li>
+			</ul>
+	    </aside>
+    </article>
+    <footer>
+        <p>Landing Page &copy CHISTI</p>
+    </footer>
+</body>
+</html>
